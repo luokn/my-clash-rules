@@ -1,0 +1,10 @@
+payload:
+    - PROCESS-NAME,TIM.exe
+    - PROCESS-NAME,QQProtect.exe
+    - PROCESS-NAME,WeChat.exe
+    - PROCESS-NAME,WeChatAppEx.exe
+    - PROCESS-NAME,QQMusic.exe
+    - PROCESS-NAME,qmbrowser.exe
+    - PROCESS-NAME,cloudmusic.exe
+    - PROCESS-NAME,uTools.exe
+    - PROCESS-NAME,FlydigiPcSpace.exe

@@ -1,0 +1,39 @@
+payload:
+    # Windows
+    - PROCESS-NAME,backgroundTaskHost.exe,🕹️ 代理
+    - PROCESS-NAME,SDXHelper.exe,🕹️ 代理
+    - PROCESS-NAME,SearchApp.exe,🕹️ 代理
+    - PROCESS-NAME,SIHClient.exe,🕹️ 代理
+    - PROCESS-NAME,svchost.exe,🕹️ 代理
+    - PROCESS-NAME,SystemSettings.exe,🕹️ 代理
+    - PROCESS-NAME,taskhostw.exe,🕹️ 代理
+    - PROCESS-NAME,WindowsPackageManagerServer.exe,🕹️ 代理
+    - PROCESS-NAME,winget.exe,🕹️ 代理
+    - PROCESS-NAME,WinStore.App.exe,🕹️ 代理
+    # Office
+    - PROCESS-NAME,WINWORD.EXE,🕹️ 代理
+    - PROCESS-NAME,EXCEL.EXE,🕹️ 代理
+    - PROCESS-NAME,POWERPNT.EXE,🕹️ 代理
+    # OneDrive
+    - PROCESS-NAME,OneDrive.exe,🕹️ 代理
+    - PROCESS-NAME,OneDriveStandaloneUpdater.exe,🕹️ 代理
+    - PROCESS-NAME,FileCoAuth.exe,🕹️ 代理
+    # Xbox
+    - PROCESS-NAME,XboxAppServices.exe,🕹️ 代理
+    - PROCESS-NAME,XboxPcApp.exe,🕹️ 代理
+    - PROCESS-NAME,GameBar.exe,🕹️ 代理
+    - PROCESS-NAME,GameBarPresenceWriter.exe,🕹️ 代理
+    - PROCESS-NAME,gamingservices.exe,🕹️ 代理
+    - PROCESS-NAME,start_protected_game.exe,🕹️ 代理
+    # 游戏
+    - PROCESS-NAME,eldenring.exe,🕹️ 代理
+    - PROCESS-NAME,sekiro.exe,🕹️ 代理
+    - PROCESS-NAME,WoLong.exe,🕹️ 代理
+    # 其他
+    - PROCESS-NAME,Code.exe,🕹️ 代理
+    - PROCESS-NAME,GoogleUpdate.exe,🕹️ 代理
+    - PROCESS-NAME,MicrosoftEdgeUpdate.exe,🕹️ 代理
+    - PROCESS-NAME,RadeonSoftware.exe,🕹️ 代理
+    - PROCESS-NAME,logioptionsplus_agent.exe,🕹️ 代理
+    - PROCESS-NAME,logioptionsplus_updater.exe,🕹️ 代理
+    - PROCESS-NAME,WeMod.exe,🕹️ 代理
