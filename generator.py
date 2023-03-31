@@ -40,7 +40,7 @@ direct_domains = [
 ]
 
 
-def compile(name, urls, domains=[]):
+def generate(name, urls, domains=[]):
     domain_list, keyword_list = [], []
     for url in urls:
         txt = requests.get(url).text
@@ -62,6 +62,6 @@ def compile(name, urls, domains=[]):
 
 
 if __name__ == "__main__":
-    compile('steam', steam_urls)
-    compile('proxy', proxy_rules, proxy_domains)
-    compile('direct', direct_rules, direct_domains)
+    generate('steam', steam_urls)
+    generate('proxy', proxy_rules, proxy_domains)
+    generate('direct', direct_rules, direct_domains)
