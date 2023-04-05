@@ -6,7 +6,7 @@ steam_urls = [
     'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list'
 ]
 
-proxy_rules = [
+proxy_domain_sets = [
     'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list',
     'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list',
     'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCN.list',
@@ -30,7 +30,7 @@ proxy_domains = {
     'eaassets-a.akamaihd.net',
 }
 
-direct_rules = [
+direct_domain_sets = [
     'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list',
 ]
 direct_domains = [
@@ -63,5 +63,5 @@ def generate(name, urls, domains=[]):
 
 if __name__ == "__main__":
     generate('steam', steam_urls)
-    generate('proxy', proxy_rules, proxy_domains)
-    generate('direct', direct_rules, direct_domains)
+    generate('proxy', proxy_domain_sets, proxy_domains)
+    generate('direct', direct_domain_sets, direct_domains)
