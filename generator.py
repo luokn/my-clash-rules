@@ -1,7 +1,9 @@
+from typing import List, Set
+
 import requests
 from yaml import safe_dump
 
-steam_urls = [
+steam_domain_sets = [
     'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list',
     'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list'
 ]
@@ -22,6 +24,16 @@ proxy_domain_sets = [
     'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Porn.list',
     'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list'
 ]
+
+direct_domain_sets = [
+    'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list',
+]
+
+direct_domains = {
+    '+.satoko.life',
+    'yacd.haishan.me',
+    'clash.razord.top',
+}
 proxy_domains = {
     'immersive-translate.owenyoung.com',
     '+.ea.com',
@@ -30,38 +42,32 @@ proxy_domains = {
     'eaassets-a.akamaihd.net',
 }
 
-direct_domain_sets = [
-    'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list',
-]
-direct_domains = [
-    '+.satoko.life',
-    'yacd.haishan.me',
-    'clash.razord.top',
-]
 
-
-def generate(name, urls, domains=[]):
-    domain_list, keyword_list = [], []
+def generate(name: str, urls: List[str], domains: Set[str] = None):
+    domain_set, keyword_set = set(), set()
     for url in urls:
         txt = requests.get(url).text
         for line in txt.splitlines():
             if line.startswith('DOMAIN-KEYWORD'):
-                keyword_list.append('DOMAIN-KEYWORD,' + line.split(',')[1])
+                keyword_set.add('DOMAIN-KEYWORD,' + line.split(',')[1])
             elif line.startswith('DOMAIN-SUFFIX'):
-                domain_list.append('+.' + line.split(',')[1])
+                domain_set.add('+.' + line.split(',')[1])
             elif line.startswith('DOMAIN'):
-                domain_list.append(line.split(',')[1])
+                domain_set.add(line.split(',')[1])
 
-    domain_list += domains
-    with open(f'./providers/{name}-domains.yaml', 'w') as out:
-        safe_dump({'payload': domain_list}, out)
+    if domains is not None:
+        domain_set |= domains
 
-    if len(keyword_list) > 0:
+    if len(domain_set) > 0:
+        with open(f'./providers/{name}-domains.yaml', 'w') as out:
+            safe_dump({'payload': list(domain_set)}, out)
+
+    if len(keyword_set) > 0:
         with open(f'./providers/{name}-keywords.yaml', 'w') as out:
-            safe_dump({'payload': keyword_list}, out)
+            safe_dump({'payload': list(keyword_set)}, out)
 
 
 if __name__ == "__main__":
-    generate('steam', steam_urls)
+    generate('steam', steam_domain_sets)
     generate('proxy', proxy_domain_sets, proxy_domains)
     generate('direct', direct_domain_sets, direct_domains)
