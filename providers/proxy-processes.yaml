@@ -1,39 +1,40 @@
 payload:
     # Windows
-    - PROCESS-NAME,backgroundTaskHost.exe,🕹️ 代理
-    - PROCESS-NAME,SDXHelper.exe,🕹️ 代理
-    - PROCESS-NAME,SearchApp.exe,🕹️ 代理
-    - PROCESS-NAME,SIHClient.exe,🕹️ 代理
-    - PROCESS-NAME,svchost.exe,🕹️ 代理
-    - PROCESS-NAME,SystemSettings.exe,🕹️ 代理
-    - PROCESS-NAME,taskhostw.exe,🕹️ 代理
-    - PROCESS-NAME,WindowsPackageManagerServer.exe,🕹️ 代理
-    - PROCESS-NAME,winget.exe,🕹️ 代理
-    - PROCESS-NAME,WinStore.App.exe,🕹️ 代理
+    - PROCESS-NAME,backgroundTaskHost.exe
+    - PROCESS-NAME,explorer.exe
+    - PROCESS-NAME,SDXHelper.exe
+    - PROCESS-NAME,SearchApp.exe
+    - PROCESS-NAME,SIHClient.exe
+    - PROCESS-NAME,svchost.exe
+    - PROCESS-NAME,SystemSettings.exe
+    - PROCESS-NAME,taskhostw.exe
+    - PROCESS-NAME,WindowsPackageManagerServer.exe
+    - PROCESS-NAME,winget.exe
+    - PROCESS-NAME,WinStore.App.exe
     # Office
-    - PROCESS-NAME,WINWORD.EXE,🕹️ 代理
-    - PROCESS-NAME,EXCEL.EXE,🕹️ 代理
-    - PROCESS-NAME,POWERPNT.EXE,🕹️ 代理
+    - PROCESS-NAME,WINWORD.EXE
+    - PROCESS-NAME,EXCEL.EXE
+    - PROCESS-NAME,POWERPNT.EXE
     # OneDrive
-    - PROCESS-NAME,OneDrive.exe,🕹️ 代理
-    - PROCESS-NAME,OneDriveStandaloneUpdater.exe,🕹️ 代理
-    - PROCESS-NAME,FileCoAuth.exe,🕹️ 代理
+    - PROCESS-NAME,OneDrive.exe
+    - PROCESS-NAME,OneDriveStandaloneUpdater.exe
+    - PROCESS-NAME,FileCoAuth.exe
     # Xbox
-    - PROCESS-NAME,XboxAppServices.exe,🕹️ 代理
-    - PROCESS-NAME,XboxPcApp.exe,🕹️ 代理
-    - PROCESS-NAME,GameBar.exe,🕹️ 代理
-    - PROCESS-NAME,GameBarPresenceWriter.exe,🕹️ 代理
-    - PROCESS-NAME,gamingservices.exe,🕹️ 代理
-    - PROCESS-NAME,start_protected_game.exe,🕹️ 代理
+    - PROCESS-NAME,XboxAppServices.exe
+    - PROCESS-NAME,XboxPcApp.exe
+    - PROCESS-NAME,GameBar.exe
+    - PROCESS-NAME,GameBarPresenceWriter.exe
+    - PROCESS-NAME,gamingservices.exe
+    - PROCESS-NAME,start_protected_game.exe
     # 游戏
-    - PROCESS-NAME,eldenring.exe,🕹️ 代理
-    - PROCESS-NAME,sekiro.exe,🕹️ 代理
-    - PROCESS-NAME,WoLong.exe,🕹️ 代理
+    - PROCESS-NAME,eldenring.exe
+    - PROCESS-NAME,sekiro.exe
+    - PROCESS-NAME,WoLong.exe
     # 其他
-    - PROCESS-NAME,Code.exe,🕹️ 代理
-    - PROCESS-NAME,GoogleUpdate.exe,🕹️ 代理
-    - PROCESS-NAME,MicrosoftEdgeUpdate.exe,🕹️ 代理
-    - PROCESS-NAME,RadeonSoftware.exe,🕹️ 代理
-    - PROCESS-NAME,logioptionsplus_agent.exe,🕹️ 代理
-    - PROCESS-NAME,logioptionsplus_updater.exe,🕹️ 代理
-    - PROCESS-NAME,WeMod.exe,🕹️ 代理
+    - PROCESS-NAME,Code.exe
+    - PROCESS-NAME,GoogleUpdate.exe
+    - PROCESS-NAME,MicrosoftEdgeUpdate.exe
+    - PROCESS-NAME,RadeonSoftware.exe
+    - PROCESS-NAME,logioptionsplus_agent.exe
+    - PROCESS-NAME,logioptionsplus_updater.exe
+    - PROCESS-NAME,WeMod.exe
