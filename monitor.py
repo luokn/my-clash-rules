@@ -41,4 +41,4 @@ async def async_main():
             prev_connections = connections
 
 
-asyncio.get_event_loop().run_until_complete(async_main())
+asyncio.new_event_loop().run_until_complete(async_main())
