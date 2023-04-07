@@ -1,13 +1,18 @@
 payload:
     # Windows
     - PROCESS-NAME,backgroundTaskHost.exe
+    - PROCESS-NAME,CompatTelRunner.exe
     - PROCESS-NAME,explorer.exe
+    - PROCESS-NAME,FileSyncHelper.exe
+    - PROCESS-NAME,lsass.exe
     - PROCESS-NAME,SDXHelper.exe
     - PROCESS-NAME,SearchApp.exe
     - PROCESS-NAME,SIHClient.exe
     - PROCESS-NAME,SystemSettings.exe
     - PROCESS-NAME,svchost.exe
     - PROCESS-NAME,taskhostw.exe
+    - PROCESS-NAME,MoUsoCoreWorker.exe
+    - PROCESS-NAME,MsMpEng.exe
     - PROCESS-NAME,WindowsPackageManagerServer.exe
     - PROCESS-NAME,WinStore.App.exe
     - PROCESS-NAME,winget.exe
@@ -20,6 +25,7 @@ payload:
     - PROCESS-NAME,OneDriveStandaloneUpdater.exe
     - PROCESS-NAME,FileCoAuth.exe
     - PROCESS-NAME,FileSyncHelper.exe
+    - PROCESS-NAME,Microsoft.SharePoint.exe
     # Xbox
     - PROCESS-NAME,XboxAppServices.exe
     - PROCESS-NAME,XboxPcApp.exe
