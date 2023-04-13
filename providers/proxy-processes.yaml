@@ -36,15 +36,15 @@ payload:
     - PROCESS-NAME,GameBarPresenceWriter.exe
     - PROCESS-NAME,gamingservices.exe
     - PROCESS-NAME,start_protected_game.exe
-    # 游戏
+    # Games
     - PROCESS-NAME,eldenring.exe
     - PROCESS-NAME,sekiro.exe
     - PROCESS-NAME,WoLong.exe
-    # 其他
+    # Other processes
+    - PROCESS-NAME,WeMod.exe
     - PROCESS-NAME,Code.exe
     - PROCESS-NAME,GoogleUpdate.exe
     - PROCESS-NAME,MicrosoftEdgeUpdate.exe
     - PROCESS-NAME,RadeonSoftware.exe
     - PROCESS-NAME,logioptionsplus_agent.exe
     - PROCESS-NAME,logioptionsplus_updater.exe
-    - PROCESS-NAME,WeMod.exe
