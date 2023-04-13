@@ -26,17 +26,15 @@ async def async_main():
                     new_connections[conn['id']] = conn
 
             for conn in new_connections.values():
-                proc_path = conn['metadata']['processPath']
+                host, proc_path = conn['metadata']['host'], conn['metadata']['processPath']
                 if '\\' not in proc_path:
                     continue
 
                 proc_name = proc_path.split('\\')[-1]
                 rule, rule_payload, chains = conn['rule'], conn['rulePayload'], '/'.join(conn['chains'])
 
-                line = f'{rule}\t{rule_payload}\t{chains}\t{proc_path}'
                 with open(f'./logs/{proc_name}.csv', 'a', encoding='utf-8') as out:
-                    out.write(line)
-                    out.write('\n')
+                    out.write(f'{host}\t{rule}::{rule_payload}\t{chains}\t{proc_path}\n')
 
             prev_connections = connections
 
