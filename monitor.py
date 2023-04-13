@@ -7,6 +7,7 @@
 
 import asyncio
 import json
+import os
 
 import websockets as ws
 
@@ -33,8 +34,11 @@ async def async_main():
                 proc_name = proc_path.split('\\')[-1]
                 rule, rule_payload, chains = conn['rule'], conn['rulePayload'], '/'.join(conn['chains'])
 
+                file_exists = os.path.exists(f'./logs/{proc_name}.csv')
                 with open(f'./logs/{proc_name}.csv', 'a', encoding='utf-8') as out:
-                    out.write(f'{host}\t{rule}::{rule_payload}\t{chains}\t{proc_path}\n')
+                    if not file_exists:
+                        out.write('Domain,Rule,Chains,Process\n')
+                    out.write(f'{host},{rule}::{rule_payload},{chains},{proc_path}\n')
 
             prev_connections = connections
 
