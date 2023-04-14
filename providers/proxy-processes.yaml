@@ -3,8 +3,11 @@ payload:
     - PROCESS-NAME,BackgroundTransferHost.exe
     - PROCESS-NAME,backgroundTaskHost.exe
     - PROCESS-NAME,CompatTelRunner.exe
+    - PROCESS-NAME,ctfmon.exe
+    - PROCESS-NAME,DeviceCensus.exe
     - PROCESS-NAME,explorer.exe
     - PROCESS-NAME,lsass.exe
+    - PROCESS-NAME,rundll32.exe
     - PROCESS-NAME,SDXHelper.exe
     - PROCESS-NAME,SearchApp.exe
     - PROCESS-NAME,SIHClient.exe
@@ -15,6 +18,7 @@ payload:
     - PROCESS-NAME,MsMpEng.exe
     - PROCESS-NAME,WindowsPackageManagerServer.exe
     - PROCESS-NAME,WinStore.App.exe
+    - PROCESS-NAME,WerFault.exe
     - PROCESS-NAME,winget.exe
     # Office
     - PROCESS-NAME,WINWORD.EXE
