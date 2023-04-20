@@ -34,8 +34,8 @@ payload:
     - PROCESS-NAME,FileSyncHelper.exe
     - PROCESS-NAME,Microsoft.SharePoint.exe
     # Xbox
-    - PROCESS-NAME,XboxAppServices.exe
     - PROCESS-NAME,XboxPcApp.exe
+    - PROCESS-NAME,XboxAppServices.exe
     - PROCESS-NAME,GameBar.exe
     - PROCESS-NAME,GameBarPresenceWriter.exe
     - PROCESS-NAME,gamingservices.exe
