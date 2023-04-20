@@ -47,11 +47,14 @@ def generate(name: str, urls: List[str], domains: Optional[Set[bool]] = None):
         txt = requests.get(url).text
         for line in txt.splitlines():
             if line.startswith('DOMAIN-KEYWORD'):
-                keyword_set.add('DOMAIN-KEYWORD,' + line.split(',')[1])
+                keyword = line.split(',')[1]
+                keyword_set.add(f'DOMAIN-KEYWORD,{keyword}')
             elif line.startswith('DOMAIN-SUFFIX'):
-                domain_set.add('+.' + line.split(',')[1])
+                suffix = line.split(',')[1]
+                domain_set.add(f'+.{suffix}')
             elif line.startswith('DOMAIN'):
-                domain_set.add(line.split(',')[1])
+                domain = line.split(',')[1]
+                domain_set.add(domain)
 
     if domains is not None:
         domain_set |= domains
