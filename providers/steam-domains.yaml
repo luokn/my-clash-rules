@@ -9,7 +9,6 @@ payload:
 - +.steamcontent.com
 - +.steamgames.com
 - +.steampowered.com
-- +.steampowered.com.8686c.com
 - +.steamserver.net
 - +.steamstat.us
 - +.steamstatic.com
@@ -28,6 +27,7 @@ payload:
 - steamcommunity-a.akamaihd.net
 - steampipe.akamaized.net
 - steampipe.steamcontent.tnkjmec.com
+- steampowered.com.8686c.com
 - steamstatic.com.8686c.com
 - steamstore-a.akamaihd.net
 - steamusercontent-a.akamaihd.net

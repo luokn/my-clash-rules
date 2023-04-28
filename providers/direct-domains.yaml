@@ -156,6 +156,7 @@ payload:
 - +.douban.com
 - +.doubanio.com
 - +.douyin.com
+- +.douyincdn.com
 - +.douyinpic.com
 - +.douyinstatic.com
 - +.douyinvod.com
@@ -598,4 +599,5 @@ payload:
 - steampowered.com.8686c.com
 - steamstatic.com.8686c.com
 - wmsjsteam.com
+- xz.pphimalayanrt.com
 - yacd.haishan.me
