@@ -32,13 +32,13 @@ async def async_main():
                     continue
 
                 proc_name = proc_path.split('\\')[-1]
-                rule, rule_payload, chains = conn['rule'], conn['rulePayload'], '/'.join(conn['chains'])
+                rule, rule_payload, chains = conn['rule'], conn['rulePayload'], '/'.join(conn['chains'][::-1])
 
                 file_exists = os.path.exists(f'./logs/{proc_name}.csv')
                 with open(f'./logs/{proc_name}.csv', 'a', encoding='utf-8') as out:
                     if not file_exists:
                         out.write('Domain,Rule,Chains,Process\n')
-                    out.write(f'{host},{rule}::{rule_payload},{chains},{proc_path}\n')
+                    out.write(f'{host}\t{rule}::{rule_payload}\t{chains}\t{proc_path}\n')
 
             prev_connections = connections
 
