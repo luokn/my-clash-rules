@@ -35,7 +35,7 @@ async def async_main():
                 rule, rule_payload, chains = conn['rule'], conn['rulePayload'], '/'.join(conn['chains'][::-1])
 
                 with open(f'./logs/{proc_name}.csv', 'a', encoding='utf-8') as out:
-                    out.write(f'{host}\t{rule}::{rule_payload}\t{chains}\t{proc_path}\n')
+                    out.write(f'{rule}::{rule_payload}\t{chains}\t{host}\t{proc_path}\n')
 
             prev_connections = connections
 
