@@ -36,6 +36,7 @@ proxy_domains = {
 }
 direct_domains = {
     '+.satoko.life',
+    '+.yukako.live',
     'yacd.haishan.me',
     'clash.razord.top',
 }
