@@ -48,30 +48,27 @@ direct_domains = {
 
 
 def generate(name: str, urls: List[str], domains: Optional[Set[bool]] = None):
-    domain_set, keyword_set = set(), set()
+    domains, keywords = set(), set()
     for url in urls:
         txt = requests.get(url).text
         for line in txt.splitlines():
             if line.startswith('DOMAIN-KEYWORD'):
-                keyword = line.split(',')[1]
-                keyword_set.add(f'DOMAIN-KEYWORD,{keyword}')
+                keywords.add('DOMAIN-KEYWORD,' + line.split(',')[1])
             elif line.startswith('DOMAIN-SUFFIX'):
-                suffix = line.split(',')[1]
-                domain_set.add(f'+.{suffix}')
+                domains.add('+.' + line.split(',')[1])
             elif line.startswith('DOMAIN'):
-                domain = line.split(',')[1]
-                domain_set.add(domain)
+                domains.add(line.split(',')[1])
 
     if domains is not None:
-        domain_set |= domains
+        domains |= domains
 
-    if len(domain_set) > 0:
+    if len(domains) > 0:
         with open(f'./providers/{name}-domains.yaml', 'w') as out:
-            safe_dump({'payload': sorted(domain_set)}, out)
+            safe_dump({'payload': sorted(domains)}, out)
 
-    if len(keyword_set) > 0:
+    if len(keywords) > 0:
         with open(f'./providers/{name}-keywords.yaml', 'w') as out:
-            safe_dump({'payload': sorted(keyword_set)}, out)
+            safe_dump({'payload': sorted(keywords)}, out)
 
 
 if __name__ == "__main__":
