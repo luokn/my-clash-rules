@@ -10,6 +10,7 @@ payload:
     - PROCESS-NAME,rundll32.exe
     - PROCESS-NAME,SDXHelper.exe
     - PROCESS-NAME,SearchApp.exe
+    - PROCESS-NAME,SearchHost.exe
     - PROCESS-NAME,SIHClient.exe
     - PROCESS-NAME,SystemSettings.exe
     - PROCESS-NAME,svchost.exe
