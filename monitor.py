@@ -21,6 +21,7 @@ proc_exclude = {
     'qmbrowser.exe',
     'cloudmusic.exe',
     'uTools.exe',
+    'betopgame.exe',
     'FlydigiPcSpace.exe',
     #
     'steam.exe',
