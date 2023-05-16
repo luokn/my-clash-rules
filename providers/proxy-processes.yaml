@@ -19,6 +19,7 @@ payload:
     - PROCESS-NAME,WindowsPackageManagerServer.exe
     - PROCESS-NAME,WinStore.App.exe
     - PROCESS-NAME,WerFault.exe
+    - PROCESS-NAME,Widgets.exe
     - PROCESS-NAME,winget.exe
     # Office
     - PROCESS-NAME,WINWORD.EXE
@@ -45,8 +46,9 @@ payload:
     - PROCESS-NAME,sekiro.exe
     - PROCESS-NAME,WoLong.exe
     # Other processes
-    - PROCESS-NAME,WeMod.exe
+    - PROCESS-NAME,Clash for Windows.exe
     - PROCESS-NAME,Code.exe
+    - PROCESS-NAME,WeMod.exe
     - PROCESS-NAME,GoogleUpdate.exe
     - PROCESS-NAME,MicrosoftEdgeUpdate.exe
     - PROCESS-NAME,RadeonSoftware.exe
