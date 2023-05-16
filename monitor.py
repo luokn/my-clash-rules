@@ -7,9 +7,26 @@
 
 import asyncio
 import json
-import os
 
 import websockets as ws
+
+proc_exclude = {
+    'TIM.exe',
+    'QQProtect.exe',
+    'QQUrlMgr.exe',
+    'WeChat.exe',
+    'WeChatAppEx.exe',
+    'WechatBrowser.exe',
+    'QQMusic.exe',
+    'qmbrowser.exe',
+    'cloudmusic.exe',
+    'uTools.exe',
+    'FlydigiPcSpace.exe',
+    'steam.exe',
+    'steamwebhelper.exe',
+    #
+    'chrome.exe'
+}
 
 
 async def async_main():
@@ -32,8 +49,10 @@ async def async_main():
                     continue
 
                 proc_name = proc_path.split('\\')[-1]
-                rule, rule_payload, chains = conn['rule'], conn['rulePayload'], '/'.join(conn['chains'][::-1])
+                if proc_name in proc_exclude:
+                    continue
 
+                rule, rule_payload, chains = conn['rule'], conn['rulePayload'], '/'.join(conn['chains'][::-1])
                 with open(f'./logs/{proc_name}.csv', 'a', encoding='utf-8') as out:
                     out.write(f'{rule}::{rule_payload}\t{chains}\t{host}\t{proc_path}\n')
 
