@@ -9,4 +9,5 @@ payload:
     - PROCESS-NAME,qmbrowser.exe
     - PROCESS-NAME,cloudmusic.exe
     - PROCESS-NAME,uTools.exe
+    - PROCESS-NAME,betopgame.exe
     - PROCESS-NAME,FlydigiPcSpace.exe
