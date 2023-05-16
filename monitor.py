@@ -22,6 +22,7 @@ proc_exclude = {
     'cloudmusic.exe',
     'uTools.exe',
     'FlydigiPcSpace.exe',
+    #
     'steam.exe',
     'steamwebhelper.exe',
     #
