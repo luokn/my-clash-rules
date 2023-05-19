@@ -139,6 +139,7 @@ payload:
 - +.a-normal-day.com
 - +.aadrm.com
 - +.aamacau.com
+- +.aaplimg.com
 - +.abc.com
 - +.abc.net.au
 - +.abc.xyz
@@ -362,6 +363,12 @@ payload:
 - +.app-measurement.net
 - +.appbrain.com
 - +.appdownloader.net
+- +.apple-cloudkit.com
+- +.apple-mapkit.com
+- +.apple.co
+- +.apple.com
+- +.apple.com.cn
+- +.apple.news
 - +.appledaily.com
 - +.appledaily.com.hk
 - +.appledaily.com.tw
@@ -369,6 +376,7 @@ payload:
 - +.appsocks.net
 - +.appspot.com
 - +.appsto.re
+- +.appstore.com
 - +.aptoide.com
 - +.archive.fo
 - +.archive.is
@@ -840,6 +848,7 @@ payload:
 - +.cdef.org
 - +.cdig.info
 - +.cdjp.org
+- +.cdn-apple.com
 - +.cdn.optimizely.com
 - +.cdn.registerdisney.go.com
 - +.cdnews.com.tw
@@ -1106,6 +1115,7 @@ payload:
 - +.cpj.org
 - +.cq99.us
 - +.crackle.com
+- +.crashlytics.com
 - +.crazys.cc
 - +.crazyshit.com
 - +.crbug.com
@@ -2737,6 +2747,9 @@ payload:
 - +.icerocket.com
 - +.icij.org
 - +.icl-fi.org
+- +.icloud-content.com
+- +.icloud.com
+- +.icloud.com.cn
 - +.icntv.xyz
 - +.icoco.com
 - +.iconfactory.net
@@ -2896,6 +2909,7 @@ payload:
 - +.itsaol.com
 - +.itshidden.com
 - +.itsky.it
+- +.itunes.com
 - +.itv.com
 - +.itvstatic.com
 - +.itweet.net
@@ -3378,6 +3392,7 @@ payload:
 - +.mcfog.com
 - +.mcreasite.com
 - +.md-t.org
+- +.me.com
 - +.me.me
 - +.meansys.com
 - +.media-amazon.com
@@ -3654,6 +3669,7 @@ payload:
 - +.mytvsuper.com
 - +.mywww.biz
 - +.myz.info
+- +.mzstatic.com
 - +.naacoalition.org
 - +.nabble.com
 - +.naitik.net
@@ -6336,6 +6352,7 @@ payload:
 - aod-hls-uk-live.akamaized.net
 - api-abematv.bucketeer.jp
 - api.viu.now.com
+- apple.comscoreresearch.com
 - atv-ps.amazon.com
 - avodmp4s3ww-a.akamaihd.net
 - bahamut.akamaized.net
