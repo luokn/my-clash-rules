@@ -1,0 +1,15 @@
+payload:
+    - PROCESS-NAME,com.android.vending
+    - PROCESS-NAME,com.google.android.gms
+    - PROCESS-NAME,com.google.android.gsf
+    - PROCESS-NAME,com.google.android.apps.docs
+    - PROCESS-NAME,com.google.android.gm
+    - PROCESS-NAME,com.google.android.youtube
+    - PROCESS-NAME,com.microsoft.office.officehubrow
+    - PROCESS-NAME,com.microsoft.skydrive
+    - PROCESS-NAME,com.twitter.android
+    - PROCESS-NAME,org.telegram.messenger
+    - PROCESS-NAME,com.valvesoftware.android.steam.community
+    - PROCESS-NAME,com.spotify.music
+    - PROCESS-NAME,mark.via.gp
+    - PROCESS-NAME,com.binance.dev
