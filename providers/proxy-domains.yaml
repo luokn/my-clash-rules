@@ -431,6 +431,7 @@ payload:
 - +.atlaspost.com
 - +.atnext.com
 - +.audionow.com
+- +.auth0.com
 - +.authorizeddns.net
 - +.authorizeddns.org
 - +.authorizeddns.us
@@ -1022,6 +1023,7 @@ payload:
 - +.clearwisdom.net
 - +.clementine-player.org
 - +.clickserve.dartsearch.net
+- +.client-api.arkoselabs.com
 - +.clinica-tibet.ru
 - +.clipfish.de
 - +.cloakpoint.com
@@ -1594,6 +1596,7 @@ payload:
 - +.eurekavpt.com
 - +.euronews.com
 - +.europa.eu
+- +.events.statsigapi.net
 - +.evozi.com
 - +.evschool.net
 - +.exblog.co.jp
@@ -1724,6 +1727,7 @@ payload:
 - +.fdc64.de
 - +.fdc64.org
 - +.fdc89.jp
+- +.featuregates.org
 - +.feedburner.com
 - +.feeder.co
 - +.feedly.com
@@ -2758,6 +2762,7 @@ payload:
 - +.idaiwan.com
 - +.idemocracy.asia
 - +.identi.ca
+- +.identrust.com
 - +.idiomconnection.com
 - +.idlcoyote.com
 - +.idouga.com
@@ -2841,6 +2846,8 @@ payload:
 - +.instanthq.com
 - +.institut-tibetain.org
 - +.interactivebrokers.com
+- +.intercom.io
+- +.intercomcdn.com
 - +.internet.org
 - +.internetdefenseleague.org
 - +.internetfreedom.org
@@ -4088,6 +4095,7 @@ payload:
 - +.packetix.net
 - +.pacopacomama.com
 - +.padmanet.com
+- +.page.link
 - +.page.tl
 - +.page2rss.com
 - +.pages.dev
@@ -4243,6 +4251,7 @@ payload:
 - +.podbean.com
 - +.podcast.co
 - +.podictionary.com
+- +.poe.com
 - +.pokerstars.com
 - +.pokerstars.net
 - +.pokerstrategy.com
@@ -4631,6 +4640,7 @@ payload:
 - +.searx.me
 - +.seatguru.com
 - +.seattlefdc.com
+- +.seattlespheres.com
 - +.secretchina.com
 - +.secretgarden.no
 - +.secretsline.biz
@@ -6409,7 +6419,6 @@ payload:
 - rtm.tnt-ea.com
 - s3-ap-southeast-1.amazonaws.com
 - steambroadcast.akamaized.net
-- steamcdn-a.akamaihd.net
 - steamcommunity-a.akamaihd.net
 - steampipe.akamaized.net
 - steamstore-a.akamaihd.net
