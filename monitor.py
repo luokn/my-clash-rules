@@ -10,25 +10,7 @@ import json
 
 import websockets as ws
 
-proc_exclude = {
-    'TIM.exe',
-    'QQProtect.exe',
-    'QQUrlMgr.exe',
-    'WeChat.exe',
-    'WeChatAppEx.exe',
-    'WechatBrowser.exe',
-    'QQMusic.exe',
-    'qmbrowser.exe',
-    'cloudmusic.exe',
-    'uTools.exe',
-    'betopgame.exe',
-    'FlydigiPcSpace.exe',
-    #
-    'steam.exe',
-    'steamwebhelper.exe',
-    #
-    'chrome.exe'
-}
+proc_exclude = {'chrome.exe', 'msedge.exe'}
 
 
 async def async_main():
