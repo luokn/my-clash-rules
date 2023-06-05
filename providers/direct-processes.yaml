@@ -2,6 +2,7 @@ payload:
     - PROCESS-NAME,TIM.exe
     - PROCESS-NAME,QQProtect.exe
     - PROCESS-NAME,QQUrlMgr.exe
+    - PROCESS-NAME,txupd.exe
     - PROCESS-NAME,WeChat.exe
     - PROCESS-NAME,WeChatAppEx.exe
     - PROCESS-NAME,WechatBrowser.exe
