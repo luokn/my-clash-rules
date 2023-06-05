@@ -15,9 +15,9 @@ payload:
     - PROCESS-NAME,SIHClient.exe
     - PROCESS-NAME,smartscreen.exe
     - PROCESS-NAME,StartMenuExperienceHost.exe
+    - PROCESS-NAME,svchost.exe
     - PROCESS-NAME,SystemSettings.exe
     - PROCESS-NAME,SystemSettingsAdminFlows.exe
-    - PROCESS-NAME,svchost.exe
     - PROCESS-NAME,taskhostw.exe
     - PROCESS-NAME,TextInputHost.exe
     - PROCESS-NAME,MoUsoCoreWorker.exe
