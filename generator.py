@@ -59,11 +59,11 @@ direct_domains = {
 }
 
 
-def generate(name: str, urls: List[str], domains: Optional[Set[bool]] = None):
+def generate(name: str, list_urls: List[str], domains: Optional[Set[bool]] = None):
     domains, keywords = set(), set()
-    for url in urls:
-        txt = requests.get(url).text
-        for line in txt.splitlines():
+    for url in list_urls:
+        content = requests.get(url).text
+        for line in content.splitlines():
             if line.startswith('DOMAIN-KEYWORD'):
                 keywords.add('DOMAIN-KEYWORD,' + line.split(',')[1])
             elif line.startswith('DOMAIN-SUFFIX'):
