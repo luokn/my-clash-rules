@@ -28,15 +28,6 @@ payload:
     - PROCESS-NAME,EXCEL.EXE
     - PROCESS-NAME,POWERPNT.EXE
     - PROCESS-NAME,SDXHelper.exe
-    # - PROCESS-NAME,OfficeC2RClient.exe
-    # - PROCESS-NAME,OfficeClickToRun.exe
-    # Xbox
-    # - PROCESS-NAME,XboxPcApp.exe
-    # - PROCESS-NAME,XboxAppServices.exe
-    # - PROCESS-NAME,GameBar.exe
-    # - PROCESS-NAME,GameBarPresenceWriter.exe
-    # - PROCESS-NAME,gamingservices.exe
-    # - PROCESS-NAME,start_protected_game.exe
     # Games
     - PROCESS-NAME,sekiro.exe
     - PROCESS-NAME,eldenring.exe
