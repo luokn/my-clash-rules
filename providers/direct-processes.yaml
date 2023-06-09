@@ -15,5 +15,7 @@ payload:
     - PROCESS-NAME,cloudmusic.exe
     # uTools
     - PROCESS-NAME,uTools.exe
+    # Huorong
+    - PROCESS-NAME,HipsDaemon.exe
     # Betop Game Center
     - PROCESS-NAME,betopgame.exe
