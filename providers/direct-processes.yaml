@@ -1,14 +1,19 @@
 payload:
+    # TIM
     - PROCESS-NAME,TIM.exe
-    - PROCESS-NAME,QQProtect.exe
+    - PROCESS-NAME,TIMApp.exe
     - PROCESS-NAME,QQUrlMgr.exe
-    - PROCESS-NAME,txupd.exe
+    - PROCESS-NAME,QQProtect.exe
+    # WeChat
     - PROCESS-NAME,WeChat.exe
     - PROCESS-NAME,WeChatAppEx.exe
     - PROCESS-NAME,WechatBrowser.exe
+    # QQ Music
     - PROCESS-NAME,QQMusic.exe
     - PROCESS-NAME,qmbrowser.exe
+    # Netease Cloud Music
     - PROCESS-NAME,cloudmusic.exe
+    # uTools
     - PROCESS-NAME,uTools.exe
+    # Betop Game Center
     - PROCESS-NAME,betopgame.exe
-    - PROCESS-NAME,FlydigiPcSpace.exe

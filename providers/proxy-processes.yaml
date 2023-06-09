@@ -1,63 +1,56 @@
 payload:
     # Windows
-    - PROCESS-NAME,AUEPDU.exe
-    - PROCESS-NAME,BackgroundTransferHost.exe
+    - PROCESS-NAME,svchost.exe
+    - PROCESS-NAME,taskhostw.exe
     - PROCESS-NAME,backgroundTaskHost.exe
-    - PROCESS-NAME,CompatTelRunner.exe
     - PROCESS-NAME,ctfmon.exe
-    - PROCESS-NAME,DeviceCensus.exe
     - PROCESS-NAME,explorer.exe
-    - PROCESS-NAME,lsass.exe
-    - PROCESS-NAME,rundll32.exe
-    - PROCESS-NAME,SDXHelper.exe
     - PROCESS-NAME,SearchApp.exe
     - PROCESS-NAME,SearchHost.exe
     - PROCESS-NAME,SIHClient.exe
-    - PROCESS-NAME,smartscreen.exe
-    - PROCESS-NAME,StartMenuExperienceHost.exe
-    - PROCESS-NAME,svchost.exe
     - PROCESS-NAME,SystemSettings.exe
-    - PROCESS-NAME,SystemSettingsAdminFlows.exe
-    - PROCESS-NAME,taskhostw.exe
-    - PROCESS-NAME,TextInputHost.exe
     - PROCESS-NAME,MoUsoCoreWorker.exe
     - PROCESS-NAME,MsMpEng.exe
-    - PROCESS-NAME,WebExperienceHostApp.exe
-    - PROCESS-NAME,WindowsPackageManagerServer.exe
-    - PROCESS-NAME,WinStore.App.exe
-    - PROCESS-NAME,WerFault.exe
     - PROCESS-NAME,Widgets.exe
-    - PROCESS-NAME,winget.exe
-    # Office
-    - PROCESS-NAME,WINWORD.EXE
-    - PROCESS-NAME,EXCEL.EXE
-    - PROCESS-NAME,POWERPNT.EXE
-    - PROCESS-NAME,Integrator.exe
-    - PROCESS-NAME,OfficeC2RClient.exe
-    - PROCESS-NAME,OfficeClickToRun.exe
+    - PROCESS-NAME,WebExperienceHostApp.exe
+    - PROCESS-NAME,StartMenuExperienceHost.exe
+    # Microsoft Store
+    - PROCESS-NAME,WinStore.App.exe
+    - PROCESS-NAME,WindowsPackageManagerServer.exe
     # OneDrive
     - PROCESS-NAME,OneDrive.exe
     - PROCESS-NAME,OneDriveStandaloneUpdater.exe
     - PROCESS-NAME,FileCoAuth.exe
     - PROCESS-NAME,FileSyncHelper.exe
     - PROCESS-NAME,Microsoft.SharePoint.exe
+    # Office
+    - PROCESS-NAME,WINWORD.EXE
+    - PROCESS-NAME,EXCEL.EXE
+    - PROCESS-NAME,POWERPNT.EXE
+    - PROCESS-NAME,SDXHelper.exe
+    # - PROCESS-NAME,OfficeC2RClient.exe
+    # - PROCESS-NAME,OfficeClickToRun.exe
     # Xbox
-    - PROCESS-NAME,XboxPcApp.exe
-    - PROCESS-NAME,XboxAppServices.exe
-    - PROCESS-NAME,GameBar.exe
-    - PROCESS-NAME,GameBarPresenceWriter.exe
-    - PROCESS-NAME,gamingservices.exe
-    - PROCESS-NAME,start_protected_game.exe
+    # - PROCESS-NAME,XboxPcApp.exe
+    # - PROCESS-NAME,XboxAppServices.exe
+    # - PROCESS-NAME,GameBar.exe
+    # - PROCESS-NAME,GameBarPresenceWriter.exe
+    # - PROCESS-NAME,gamingservices.exe
+    # - PROCESS-NAME,start_protected_game.exe
     # Games
-    - PROCESS-NAME,eldenring.exe
     - PROCESS-NAME,sekiro.exe
-    - PROCESS-NAME,WoLong.exe
-    # Other processes
+    - PROCESS-NAME,eldenring.exe
+    # CFW
     - PROCESS-NAME,Clash for Windows.exe
-    - PROCESS-NAME,Code.exe
+    # WeMod
     - PROCESS-NAME,WeMod.exe
-    - PROCESS-NAME,GoogleUpdate.exe
-    - PROCESS-NAME,MicrosoftEdgeUpdate.exe
+    # VS Code
+    - PROCESS-NAME,Code.exe
+    # Windows Package Manager
+    - PROCESS-NAME,winget.exe
+    # AMD
+    - PROCESS-NAME,AUEPDU.exe
     - PROCESS-NAME,RadeonSoftware.exe
+    # Logitech
     - PROCESS-NAME,lghub.exe
     - PROCESS-NAME,lghub_agent.exe
