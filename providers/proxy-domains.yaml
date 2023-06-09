@@ -6387,7 +6387,9 @@ payload:
 - dai3fd1oh325y.cloudfront.net
 - dfp6rglgjqszk.cloudfront.net
 - dmqdd6hw24ucf.cloudfront.net
+- ea-api.arkoselabs.com
 - eaasserts-a.akamaihd.net
+- eaassets-a.akamaihd.net
 - edge.api.brightcove.com
 - gamer-cds.cdn.hinet.net
 - gamer2-cds.cdn.hinet.net
@@ -6402,6 +6404,7 @@ payload:
 - hbogoprod-vod.akamaized.net
 - hbolb.onwardsmg.com
 - hbounify-prod.evergent.com
+- immersive-translate.owenyoung.com
 - itvpnpmobile-a.akamaihd.net
 - kktv-theater.kk.stream
 - ktpx.amazon.com

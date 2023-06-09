@@ -59,7 +59,7 @@ direct_domains = {
 }
 
 
-def generate(name: str, list_urls: List[str], domains: Optional[Set[bool]] = None):
+def generate(name: str, list_urls: List[str], additions: Optional[Set[str]] = None):
     domains, keywords = set(), set()
     for url in list_urls:
         content = requests.get(url).text
@@ -71,8 +71,8 @@ def generate(name: str, list_urls: List[str], domains: Optional[Set[bool]] = Non
             elif line.startswith('DOMAIN'):
                 domains.add(line.split(',')[1])
 
-    if domains is not None:
-        domains |= domains
+    if additions is not None:
+        domains |= additions
 
     if len(domains) > 0:
         with open(f'./providers/{name}-domains.yaml', 'w') as out:
