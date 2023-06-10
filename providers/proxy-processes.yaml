@@ -31,8 +31,6 @@ payload:
     # Games
     - PROCESS-NAME,sekiro.exe
     - PROCESS-NAME,eldenring.exe
-    # CFW
-    - PROCESS-NAME,Clash for Windows.exe
     # WeMod
     - PROCESS-NAME,WeMod.exe
     # VS Code
@@ -42,6 +40,5 @@ payload:
     # AMD
     - PROCESS-NAME,AUEPDU.exe
     - PROCESS-NAME,RadeonSoftware.exe
-    # Logitech
-    - PROCESS-NAME,lghub.exe
-    - PROCESS-NAME,lghub_agent.exe
+    # CFW
+    - PROCESS-NAME,Clash for Windows.exe
