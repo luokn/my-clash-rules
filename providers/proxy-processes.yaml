@@ -1,19 +1,16 @@
 payload:
     # Windows
-    - PROCESS-NAME,svchost.exe
-    - PROCESS-NAME,taskhostw.exe
     - PROCESS-NAME,backgroundTaskHost.exe
     - PROCESS-NAME,ctfmon.exe
     - PROCESS-NAME,explorer.exe
-    - PROCESS-NAME,SearchApp.exe
-    - PROCESS-NAME,SearchHost.exe
-    - PROCESS-NAME,SIHClient.exe
-    - PROCESS-NAME,SystemSettings.exe
+    - PROCESS-NAME,svchost.exe
+    - PROCESS-NAME,taskhostw.exe
     - PROCESS-NAME,MoUsoCoreWorker.exe
-    - PROCESS-NAME,MsMpEng.exe
-    - PROCESS-NAME,Widgets.exe
-    - PROCESS-NAME,WebExperienceHostApp.exe
+    - PROCESS-NAME,SearchHost.exe
     - PROCESS-NAME,StartMenuExperienceHost.exe
+    - PROCESS-NAME,SystemSettings.exe
+    - PROCESS-NAME,WebExperienceHostApp.exe
+    - PROCESS-NAME,Widgets.exe
     # Microsoft Store
     - PROCESS-NAME,WinStore.App.exe
     - PROCESS-NAME,WindowsPackageManagerServer.exe
