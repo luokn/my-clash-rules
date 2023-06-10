@@ -31,14 +31,9 @@ payload:
     # Games
     - PROCESS-NAME,sekiro.exe
     - PROCESS-NAME,eldenring.exe
-    # WeMod
-    - PROCESS-NAME,WeMod.exe
     # VS Code
     - PROCESS-NAME,Code.exe
     # Windows Package Manager
     - PROCESS-NAME,winget.exe
-    # AMD
-    - PROCESS-NAME,AUEPDU.exe
-    - PROCESS-NAME,RadeonSoftware.exe
     # CFW
     - PROCESS-NAME,Clash for Windows.exe
