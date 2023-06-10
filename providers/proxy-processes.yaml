@@ -7,7 +7,6 @@ payload:
     - PROCESS-NAME,taskhostw.exe
     - PROCESS-NAME,MoUsoCoreWorker.exe
     - PROCESS-NAME,SearchHost.exe
-    - PROCESS-NAME,StartMenuExperienceHost.exe
     - PROCESS-NAME,SystemSettings.exe
     - PROCESS-NAME,WebExperienceHostApp.exe
     - PROCESS-NAME,Widgets.exe
