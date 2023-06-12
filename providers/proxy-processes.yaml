@@ -1,5 +1,6 @@
 payload:
     # Windows
+    - PROCESS-NAME,msedgewebview2.exe
     - PROCESS-NAME,backgroundTaskHost.exe
     - PROCESS-NAME,explorer.exe
     - PROCESS-NAME,svchost.exe
