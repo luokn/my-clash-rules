@@ -1,15 +1,14 @@
 payload:
     # Windows
-    - PROCESS-NAME,msedgewebview2.exe
     - PROCESS-NAME,backgroundTaskHost.exe
     - PROCESS-NAME,explorer.exe
+    - PROCESS-NAME,msedgewebview2.exe
     - PROCESS-NAME,svchost.exe
     - PROCESS-NAME,taskhostw.exe
     - PROCESS-NAME,SearchHost.exe
     - PROCESS-NAME,SystemSettings.exe
     - PROCESS-NAME,WebExperienceHostApp.exe
     - PROCESS-NAME,Widgets.exe
-    # Microsoft Store
     - PROCESS-NAME,WinStore.App.exe
     - PROCESS-NAME,WindowsPackageManagerServer.exe
     # OneDrive
