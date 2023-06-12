@@ -10,7 +10,7 @@ import json
 
 import websockets as ws
 
-proc_exclude = {'chrome.exe', 'msedge.exe'}
+proc_exclude = {'chrome.exe', 'msedge.exe', 'TIM.exe', 'steamwebhelper.exe', 'svchost.exe', 'Code.exe'}
 
 
 async def async_main():
