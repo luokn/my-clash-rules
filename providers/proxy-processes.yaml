@@ -22,7 +22,9 @@ payload:
     - PROCESS-NAME,SDXHelper.exe
     - PROCESS-NAME,OfficeC2RClient.exe
     # Games
+    - PROCESS-NAME,DarkSoulsIII.exe
     - PROCESS-NAME,eldenring.exe
+    - PROCESS-NAME,start_protected_game.exe
     # Windows Package Manager
     - PROCESS-NAME,winget.exe
     # VS Code
