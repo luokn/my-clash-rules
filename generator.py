@@ -44,14 +44,17 @@ direct_domain_lists = [
 ]
 
 proxy_domains = {
-    'immersive-translate.owenyoung.com',
+    # Microsoft
+    '+.microsoft.com',
+    # EA
     '+.ea.com',
     'ea-api.arkoselabs.com',
     'origin-a.akamaihd.net',
     'eaassets-a.akamaihd.net',
+    #
+    'immersive-translate.owenyoung.com',
 }
 direct_domains = {
-    '+.satoko.life',
     '+.yukako.live',
     'yacd.haishan.me',
     'clash.razord.top',
