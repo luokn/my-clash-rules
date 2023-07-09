@@ -52,6 +52,8 @@ proxy_domains = {
     'origin-a.akamaihd.net',
     'eaassets-a.akamaihd.net',
     #
+    'picx.xpoet.cn',
+    #
     'immersive-translate.owenyoung.com',
 }
 direct_domains = {
