@@ -3459,6 +3459,7 @@ payload:
 - +.michaelanti.com
 - +.michaelmarketl.com
 - +.microsoft.com
+- +.microsoftonline.com+.ea.com
 - +.microvpn.com
 - +.middle-way.net
 - +.mihk.hk
@@ -6403,7 +6404,6 @@ payload:
 - np-edge.itunes.apple.com
 - origin-a.akamaihd.net
 - originasserts.akamaized.net
-- picx.xpoet.cn
 - play-edge.itunes.apple.com
 - players.brightcove.net
 - rtm.tnt-ea.com

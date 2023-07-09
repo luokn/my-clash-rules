@@ -29,5 +29,8 @@ payload:
     - PROCESS-NAME,winget.exe
     # VS Code
     - PROCESS-NAME,Code.exe
+    # Visual Studio
+    - PROCESS-NAME,PerfWatson2.exe
+    - PROCESS-NAME,devenv.exe
     # CFW
     - PROCESS-NAME,Clash for Windows.exe
