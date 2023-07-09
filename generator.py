@@ -46,11 +46,9 @@ direct_domain_lists = [
 proxy_domains = {
     # Microsoft
     '+.microsoft.com',
-    '+.microsoftonline.com'
+    '+.microsoftonline.com',
     # EA
-    '+.ea.com',
     'ea-api.arkoselabs.com',
-    'origin-a.akamaihd.net',
     'eaassets-a.akamaihd.net',
     #
     'immersive-translate.owenyoung.com',
